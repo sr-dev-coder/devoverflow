@@ -6,7 +6,7 @@ const SignIn = () => {
   return (
     <AuthForm
       formType="SIGN_IN"
-      scheme={SignInSchema}
+      schema={SignInSchema}
       defaultValues={{
         email: "",
         password: "",
